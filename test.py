@@ -38,7 +38,7 @@ def parse_args():
     parser.add_argument('--model_name', default=[0,30,30,30,   30, 30, 30, 30,   30, 30, 30, 30,  30, 30, 30, 30], type=list, help='the model epoch number')    
     
     parser.add_argument('--result_dir', default='results', type=str, help='directory of results')
-    parser.add_argument('--save_result', default=1, type=int, help='1 or 0, 1 = save image and PSNR/SSIM values')
+    parser.add_argument('--save_result', default=0, type=int, help='1 or 0, 1 = save image and PSNR/SSIM values')
     return parser.parse_args()
     
 def to_tensor(img):
