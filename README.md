@@ -13,7 +13,7 @@
 
   - python test.py --set_names Sintel_sample --type_8_or_16 1 --quant 6 --quant_end 12 --dep 4 
   
-- Note: --type_8_or_16 flag -> 0 = 8-bit images, 1 = 16-bit images in the corresponding --set_names folder
+  - [Note: --type_8_or_16 flag -> 0 = 8-bit images, 1 = 16-bit images in the corresponding --set_names folder]
 
 ***
 
