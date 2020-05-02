@@ -7,4 +7,8 @@
 4. To reproduce the numbers in Table IV on the [Kodak dataset](http://r0k.us/graphics/kodak/) which has already been downloaded to ./data/Test/Kodak, run [this code](./download_data_and_test/test_table_IV_Kodak.txt).
 5. To reproduce the numbers in Table V, follow [these instructions](./download_data_and_test/download_ESPL_v2_dataset.txt) to download the data, and run [this code](./download_data_and_test/test_table_V_ESPL_v2.txt) to produce the outputs.
 
+
+***
+
+
 1. To reproduce the numbers in Table S1, follow [these instructions](./download_data_and_test/download_MS_COCO_dataset.txt) to download the data, and run [this code](./download_data_and_test/test_table_V_ESPL_v2.txt) to produce the outputs.
