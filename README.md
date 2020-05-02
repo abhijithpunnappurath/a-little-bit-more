@@ -1,5 +1,10 @@
 # Official repository for "A little bit more: Bitplane-wise bit-depth recovery"
 
+
+***
+
+
+### Main paper
 1. To reproduce the numbers in Table I, run [this code](./download_data_and_test/download_Sintel_test_set.m) to download the data, and [this code](./download_data_and_test/test_table_I_Sintel.txt) to produce the outputs.
 2. To reproduce the numbers in Table II, run [this code](./download_data_and_test/download_Adobe_MIT_test_set.m) to download the data, and [this code](./download_data_and_test/test_table_II_Adobe_MIT.txt) to produce the outputs.     
      - Note: Downloading and preparing Adobe MIT test data can take a while!
@@ -10,5 +15,9 @@
 
 ***
 
-
-1. To reproduce the numbers in Table S1, follow [these instructions](./download_data_and_test/download_MS_COCO_dataset.txt) to download the data, and run [this code](./download_data_and_test/test_table_V_ESPL_v2.txt) to produce the outputs.
+### Supplementary material
+1. To reproduce the numbers in Table S1, follow [these instructions](./download_data_and_test/download_MS_COCO_dataset.txt) to download the data, and run [this code](./download_data_and_test/test_table_S1_MS_COCO.txt) to produce the outputs.
+2. To reproduce the numbers in Table S2, follow [these instructions](./download_data_and_test/download_TESTIMAGES_dataset.txt) to download the data, and run [this code](./download_data_and_test/test_table_S2_TESTIMAGES_800.txt) to produce the outputs.
+3. To reproduce the numbers in Table S3, and run [this code](./download_data_and_test/test_table_S3.txt).
+4. To reproduce the numbers in Table S4, and run [this code](./download_data_and_test/test_table_S4_Adobe_MIT.txt).
+5. To reproduce the numbers in Table S5, follow [these instructions](./download_data_and_test/download_BSD_dataset.txt) to download the data, and run [this code](./download_data_and_test/test_table_S5.txt) to produce the outputs.
