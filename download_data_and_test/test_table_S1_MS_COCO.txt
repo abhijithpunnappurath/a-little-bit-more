@@ -1,0 +1,2 @@
+python test.py --set_names MS_COCO_2k --type_8_or_16 0 --quant 4 --quant_end 8 --dep 4 
+python test.py --set_names MS_COCO_2k --type_8_or_16 0 --quant 4 --quant_end 8 --dep 16 

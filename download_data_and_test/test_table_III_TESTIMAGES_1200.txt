@@ -1,0 +1,14 @@
+python test.py --set_names TESTIMAGES_1200 --type_8_or_16 1 --quant 4 --quant_end 16 --dep 4 
+python test.py --set_names TESTIMAGES_1200 --type_8_or_16 1 --quant 4 --quant_end 16 --dep 16 
+
+python test.py --set_names TESTIMAGES_1200 --type_8_or_16 1 --quant 4 --quant_end 12 --dep 4 
+python test.py --set_names TESTIMAGES_1200 --type_8_or_16 1 --quant 4 --quant_end 12 --dep 16 
+
+python test.py --set_names TESTIMAGES_1200 --type_8_or_16 1 --quant 4 --quant_end 8 --dep 4 
+python test.py --set_names TESTIMAGES_1200 --type_8_or_16 1 --quant 4 --quant_end 8 --dep 16 
+
+python test.py --set_names TESTIMAGES_1200 --type_8_or_16 1 --quant 6 --quant_end 16 --dep 4 
+python test.py --set_names TESTIMAGES_1200 --type_8_or_16 1 --quant 6 --quant_end 16 --dep 16 
+
+python test.py --set_names TESTIMAGES_1200 --type_8_or_16 1 --quant 6 --quant_end 12 --dep 4 
+python test.py --set_names TESTIMAGES_1200 --type_8_or_16 1 --quant 6 --quant_end 12 --dep 16 

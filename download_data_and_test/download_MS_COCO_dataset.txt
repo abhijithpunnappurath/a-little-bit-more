@@ -1,0 +1,6 @@
+Download MS COCO 2014 test set here -
+
+http://images.cocodataset.org/zips/test2014.zip
+
+Unzip inside this directory first, and then copy out the 2000 test images used in Table S1 by running the Matlab code
+prepare_MS_COCO_2k.m

@@ -1,0 +1,12 @@
+The dataset can be found here -
+
+http://signal.ece.utexas.edu/~bevans/synthetic/
+
+Debarati Kundu and Brian Evans. Full-reference visual quality
+assessment for synthetic images: A subjective study. In
+ICIP, 2015
+
+Contact the first author to request the password of the zipped archive.
+
+Copy the 25 images to 
+..\data\Test\ESPL_v2

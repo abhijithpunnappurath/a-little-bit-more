@@ -1,0 +1,5 @@
+python test.py --set_names Adobe_MIT --type_8_or_16 1 --quant 8 --quant_end 10 --dep 4 
+python test.py --set_names Adobe_MIT --type_8_or_16 1 --quant 8 --quant_end 10 --dep 16 
+
+python test.py --set_names Adobe_MIT --type_8_or_16 1 --quant 8 --quant_end 12 --dep 4 
+python test.py --set_names Adobe_MIT --type_8_or_16 1 --quant 8 --quant_end 12 --dep 16

@@ -1,0 +1,2 @@
+python test.py --set_names Kodak --type_8_or_16 0 --quant 6 --quant_end 8 --dep 16 
+python test.py --set_names BSD100 --type_8_or_16 0 --quant 6 --quant_end 8 --dep 16 

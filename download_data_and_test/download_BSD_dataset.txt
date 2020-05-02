@@ -1,0 +1,9 @@
+Download the BSD dataset here -
+
+https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300-images.tgz
+
+Unzip inside this directory first, and then copy out the 100 test images from
+BSDS300-images\BSDS300\images\test
+
+to the following path
+..\data\Test\BSD100
