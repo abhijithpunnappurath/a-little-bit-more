@@ -3,6 +3,20 @@
 
 ***
 
+### Testing code
+#### Sample usage:
+- To test 4 to 8-bit recovery on the [Kodak dataset](http://r0k.us/graphics/kodak/) (which has already been downloaded to ./data/Test/Kodak) using our D16 model, run
+
+  - python test.py --set_names Kodak --type_8_or_16 0 --quant 4 --quant_end 8 --dep 16 
+
+- To test 6 to 12-bit recovery on [this image](http://r0k.us/graphics/kodak/) from the Sintel dataset (which has already been downloaded to ./data/Test/Sintel_sample) using our D4 model, run
+
+  - python test.py --set_names Sintel_sample --type_8_or_16 1 --quant 6 --quant_end 12 --dep 4 
+  
+- Note: --type_8_or_16 flag -> 0 = 8-bit images, 1 = 16-bit images in the corresponding --set_names folder
+
+***
+
 
 ### Main paper
 1. To reproduce the numbers in Table I, run [this code](./download_data_and_test/download_Sintel_test_set.m) to download the data, and [this code](./download_data_and_test/test_table_I_Sintel.txt) to produce the outputs.
