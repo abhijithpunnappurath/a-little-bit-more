@@ -9,11 +9,14 @@
 
   - python test.py --set_names Kodak --type_8_or_16 0 --quant 4 --quant_end 8 --dep 16 
 
-- To test 6 to 12-bit recovery on [this image](http://r0k.us/graphics/kodak/) from the Sintel dataset (which has already been downloaded to ./data/Test/Sintel_sample) using our D4 model, run
+- To test 6 to 12-bit recovery on [this sample image](http://r0k.us/graphics/kodak/) from the Sintel dataset (which has already been downloaded to ./data/Test/Sintel_sample) using our D4 model, run
 
   - python test.py --set_names Sintel_sample --type_8_or_16 1 --quant 6 --quant_end 12 --dep 4 
   
-  - [Note: --type_8_or_16 flag -> 0 = 8-bit images, 1 = 16-bit images in the corresponding --set_names folder]
+(Note: --type_8_or_16 flag -> 0 = 8-bit images, 1 = 16-bit images in the corresponding --set_names folder)
+
+- To test 4 to 8-bit recovery on the Kodak dataset and on the sample image from the Sintel dataset using our D4 model, run
+  - python test.py --set_names Kodak,Sintel_sample --type_8_or_16 0,1 --quant 4 --quant_end 8 --dep 4 
 
 ***
 
