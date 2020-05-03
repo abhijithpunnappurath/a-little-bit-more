@@ -1,5 +1,6 @@
 # Official repository for "A little bit more: Bitplane-wise bit-depth recovery"
 
+- [ ] arXiv link coming Tuesday
 
 ***
 
