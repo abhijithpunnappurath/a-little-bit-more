@@ -1,6 +1,16 @@
 # Official repository for "A little bit more: Bitplane-wise bit-depth recovery"
 
-- [ ] arXiv link coming Tuesday
+### BibTeX
+```BibTeX
+@misc{punnappurath2020little,
+    title={A Little Bit More: Bitplane-Wise Bit-Depth Recovery},
+    author={Abhijith Punnappurath and Michael S. Brown},
+    year={2020},
+    eprint={2005.01091},
+    archivePrefix={arXiv},
+    primaryClass={eess.IV}
+}
+```
 
 ***
 
