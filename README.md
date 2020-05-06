@@ -58,7 +58,7 @@
 
 ***
 
-#### Requirements
+### Requirements
 This code was tested on
  - Python 3.6
  - Keras 2.2.4
