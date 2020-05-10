@@ -14,6 +14,24 @@
 
 ***
 
+### Requirements
+This code was tested on
+ - Python 3.6
+ - Tensorflow 1.12.0
+ - Keras 2.2.4
+ - scikit-image 0.15.0
+ - opencv 3.3.1
+ 
+Or create a new [conda](https://conda.io) environment with
+
+    conda env create -f environment.yml
+    
+and activate it with
+
+    conda activate bitmore
+
+***
+
 ### Testing code
 #### Sample usage
 - To test 4 to 8-bit recovery on the [Kodak dataset](http://r0k.us/graphics/kodak/) (which has already been downloaded to ./data/Test/Kodak) using our D16 model, run
@@ -55,11 +73,3 @@
 3. To reproduce the numbers in Table S3, and run [this code](./download_data_and_test/test_table_S3.txt).
 4. To reproduce the numbers in Table S4, and run [this code](./download_data_and_test/test_table_S4_Adobe_MIT.txt).
 5. To reproduce the numbers in Table S5, follow [these instructions](./download_data_and_test/download_BSD_dataset.txt) to download the data, and run [this code](./download_data_and_test/test_table_S5.txt) to produce the outputs.
-
-***
-
-### Requirements
-This code was tested on
- - Python 3.6
- - Keras 2.2.4
- - Tensorflow 1.12.0
