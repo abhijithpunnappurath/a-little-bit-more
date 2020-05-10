@@ -1,0 +1,8 @@
+name: bitmore
+dependencies:
+- python=3.6
+- tensorflow-gpu=1.12.0
+- numpy=1.16.0
+- keras=2.2.4
+- scikit-image=0.15.0
+- opencv=3.3.1
