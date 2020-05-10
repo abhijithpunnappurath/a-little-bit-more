@@ -1,4 +1,4 @@
-# Official repository for "A little bit more: Bitplane-wise bit-depth recovery"
+# Official repository for "[A little bit more: Bitplane-wise bit-depth recovery](https://arxiv.org/abs/2005.01091)"
 
 ### BibTeX
 ```BibTeX
