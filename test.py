@@ -1,13 +1,12 @@
 # =============================================================================
-#  @article{punnappurath2020bitdepth,
-#    title={A little bit more: Bitplane-wise bit-depth recovery},
-#    author={Punnappurath, Abhijith and Brown, Michael},
-#    journal={},
-#    year={},
-#    volume={}, 
-#    number={}, 
-#    pages={}, 
-#  }
+#  @misc{punnappurath2020little,
+#    title={A Little Bit More: Bitplane-Wise Bit-Depth Recovery},
+#    author={Abhijith Punnappurath and Michael S. Brown},
+#    year={2020},
+#    eprint={2005.01091},
+#    archivePrefix={arXiv},
+#    primaryClass={eess.IV}
+#    } 
 # by Abhijith Punnappurath (05/2020)
 # pabhijith@eecs.yorku.ca
 # https://abhijithpunnappurath.github.io
