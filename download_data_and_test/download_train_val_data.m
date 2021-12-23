@@ -10,7 +10,7 @@ if(~exist('..\data\train','dir'))
     mkdir('..\data\train')
 end
 
-for i=1%:size(A,2)
+for i=1:size(A,2)
     
   
     if(~exist(['..\data\train\' A{1,i}],'file'))       
@@ -38,7 +38,7 @@ end
 clear train_imgs
 load Sintel_train_imgs.mat
 
-for i=1%:size(train_imgs,2)
+for i=1:size(train_imgs,2)
     filename=['..\data\train\' train_imgs{1,i}];
    url = ['https://media.xiph.org/sintel/sintel-1k-png16/' train_imgs{1,i}];
    
@@ -63,7 +63,7 @@ if(~exist('..\data\val','dir'))
     mkdir('..\data\val')
 end
 
-for i=1%:size(A,2)
+for i=1:size(A,2)
     
   
     if(~exist(['..\data\val\' A{1,i}],'file'))       
