@@ -75,6 +75,7 @@ and activate it with
 4. To reproduce the numbers in Table S7, and run [this code](./download_data_and_test/test_table_S7_Adobe_MIT.txt).
 5. To reproduce the numbers in Table S8, follow [these instructions](./download_data_and_test/download_BSD_dataset.txt) to download the data, and run [this code](./download_data_and_test/test_table_S8.txt) to produce the outputs.
 
+***
 
 ### Training code 
 - Run [this code](./download_data_and_test/download_train_val_data.m) to download training data.
